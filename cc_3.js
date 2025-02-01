@@ -16,3 +16,11 @@ let employee = { name: "Helen", role: "Project Manager", performanceScore: 80, i
 employee.performanceScore = 85; 
 employee.promotionEligible = true; 
 console.log("Updated Employee:", employee);
+
+//Task 4: Customer Feedback Records 
+let feedback = [
+    { customerName: "Kelsey Khong", feedbackText:"Good value for the price", rating: 5 }, 
+    { customerName: 'Hai Tran', feedbackText:"Amazing product quality", rating: 5 },
+    { customerName: 'Rei Nguyen', feedbackText:"Will buy again", rating: 4}];
+    feedback.push({ customerName: 'Anna Nguyen', feedbackText:"Good experience", rating: 4 });
+    console.log("Customer Feedback:", feedback);
